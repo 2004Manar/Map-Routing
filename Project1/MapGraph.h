@@ -15,10 +15,14 @@ public:
 	static MapGraph constructGraph(const string& mapFilePath);
 
 
-	vector<int> findShortestPath(int startId, int endId) const;
+//	vector<int> findShortestPath(int startId, int endId) const;
 
 	void printNodes() const;
 	void printAdjList() const;
+
+//	vector<int> findShortestPath(int startId, int endId) const;
+
+	vector<int> findShortestPath(int startId, int endId) ;
 
 
 };
